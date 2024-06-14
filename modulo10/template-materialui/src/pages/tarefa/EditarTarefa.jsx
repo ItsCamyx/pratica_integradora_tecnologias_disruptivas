@@ -96,7 +96,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                 <Input id="tarefa_inicio" type="date" aria-describedby="tarefa_inicio_helper_text" value={inicioTarefa} onChange={e => { setInicioTarefa(e.target.value) }}
                   sx={{
                     color:'rgba(0, 0, 0, 0.6)',
-                    fontWeight: 400,
+                    fontWeight: 300,
                     paddingLeft:'13px'
                   }} 
                 />
@@ -108,7 +108,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                 <Input id="tarefa_fim" type="date" aria-describedby="tarefa_fim_helper_text" value={fimTarefa} onChange={e => { setFimTarefa(e.target.value) }}
                   sx={{
                     color:'rgba(0, 0, 0, 0.6)',
-                    fontWeight: 400,
+                    fontWeight: 300,
                     paddingLeft:'13px'
                   }} 
                 />
@@ -126,7 +126,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                   size="small"
                   sx={{
                     color:'rgba(0, 0, 0, 0.6)',
-                    fontWeight: 400,
+                    fontWeight: 300,
                   }} 
                 >
                   <MenuItem value={'Recurso 1'}>Recurso 1</MenuItem>
